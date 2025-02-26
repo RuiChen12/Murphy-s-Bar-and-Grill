@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Murphy's Bar and Grill</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    <style>
+        .background-section {
+            background: url('http://courses.ics.hawaii.edu/ics314f23/morea/ui-frameworks/murphys-new-background.jpeg') center/cover no-repeat;
+            height: 800px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .background-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .background-text {
+            position: relative;
+            color: white;
+            text-align: center;
+            font-size: 2rem;
+            font-weight: bold;
+            z-index: 2;
+        }
+        .footer {
+            background-color: #004030;
+            color: white;
+            padding: 20px 0;
+        }
+
+        .footer h5 {
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
+
+        .footer p {
+            margin: 0;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #0b3d18;">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+        
+        <!-- Left-aligned Murphy's Logo -->
+        <a class="navbar-brand" href="#">
+            <img src="http://courses.ics.hawaii.edu/ics314f23/morea/ui-frameworks/murphyslogowhite.png" alt="Murphy's Logo" height="40">
+        </a>
+
+        <!-- Right-aligned Navigation Links -->
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item p-2"><a class="nav-link text-white" href="#">Home</a></li>
+                <li class="nav-item p-2"><a class="nav-link text-white" href="#">About Us</a></li>
+                <li class="nav-item p-2"><a class="nav-link text-white" href="#">St. Patrick’s Day</a></li>
+                <li class="nav-item p-2"><a class="nav-link text-white" href="#">To Go Ordering</a></li>
+                <li class="nav-item p-2"><a class="nav-link text-white" href="#"><i class="bi bi-instagram"></i></a></li>
+                <li class="nav-item p-2"><a class="nav-link text-white" href="#"><i class="bi bi-facebook"></i></a></li>
+                <li class="nav-item p-2"><a class="nav-link text-white" href="#"><i class="bi bi-twitter"></i></a></li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
+<div class="background-section">
+    <div class="background-overlay"></div>
+    <div class="background-text">
+        Now Accepting Reservations for St. Patrick’s Day!<br>
+        Please call 808-531-0422 for reservations.<br>
+        St. Patrick’s Day To-Go Orders can be ordered on our website menu.
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h5>Lunch</h5>
+                <hr style="border-color: white">
+                <p>Monday - Friday: 11:00am - 2:30pm</p>
+                <p>Saturday - Sunday: Not open</p>
+            </div>
+            <div class="col-md-4">
+                <h5>Bar</h5>
+                <hr style="border-color: white">
+                <p>Monday - Friday: From 11:00am to closing</p>
+                <p>Saturday - Sunday: Not open</p>
+            </div>
+            <div class="col-md-4">
+                <h5>Dinner</h5>
+                <hr style="border-color: white">
+                <p>Monday - Friday: 5:00pm - 9:00pm</p>
+                <p>Saturday - Sunday: Not open</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
